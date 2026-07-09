@@ -60,7 +60,11 @@ public class CartPage {
     }
 
     public boolean isBikeLightPresent(){
+
         return driver.getPageSource().contains("Sauce Labs Bike Light");
+    }
+    public boolean isBackpackPresent() {
+        return driver.getPageSource().contains("Sauce Labs Backpack");
     }
 }
 
